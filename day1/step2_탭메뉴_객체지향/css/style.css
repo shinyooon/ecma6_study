@@ -1,0 +1,26 @@
+﻿@charset "utf-8";
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,heade,nav,aside,section,article,footer
+{ margin:0;  padding:0; }
+table {border-collapse:collapse; border-spacing:0;}
+input,select { vertical-align:top; padding:0;}
+fieldset,img {border:0; vertical-align:top;}
+address,caption,cite,code,dfn,var {font-style:normal; font-weight:normal; }
+ol,ul {list-style: none; }
+caption,th { text-align:left;}
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight:normal;}
+q:before,q:after {content:"";}
+a{outline:1;   text-decoration:none; color:#666;}
+em { font-style:normal; }
+body { font: 12px /1.4 arial, sans-serif; color:#666; overflow-x:hidden;}
+.h { position:absolute; top:-99999px;}
+
+#tab {width:400px;border:1px solid #000;margin:100px auto;}
+.navi > li {float:left;}
+.navi > li > a {display:block;width:100px;height:40px;font:bold 12px/40px 'arial'; color:#bbb;background:#555;text-align:center;}
+.navi > li > a.on{background:#fff;color:#555;}
+.navi::after{content:'';display:block;clear:both;}
+
+.panel>li{width:400px;height:200px;display:none;font:bold 50px/200px 'arial';color:#555;text-align:center;}
+.panel>li.on{display:block;}
