@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*초기화*/
+* { margin:0px; padding:0px;}
+
+button { margin:20px;}
+
+#wrap { 
+   width:600px; height:300px; border:1px solid #888; 
+   margin:20px; position:relative; perspective:800px;
+}
+#box { 
+   width:200px; height:100px; background:pink; 
+   position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-50px;
+   transform:rotateY(0deg); transition:all 1s;
+}
+#wrap.on #box { 
+   transform:rotateY(360deg); margin-left:0px; left:0%;
+}

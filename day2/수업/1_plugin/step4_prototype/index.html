@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> tab plugin </title>	
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>	
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/myTab.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.tabBox1').myTab({
+				active_name : 'active'
+			});
+		});
+	</script>
+</head>
+<body>
+
+	<div class="tabBox1">
+		<ul class="btnGroup">
+			<li><a href="#box1" class="active">btn1</a></li>
+			<li><a href="#box2">btn2</a></li>
+			<li><a href="#box3">btn3</a></li>
+		</ul>
+		<div class="boxGroup">
+			<div id="box1">box1</div>
+			<div id="box2">box2</div>
+			<div id="box3">box3</div>
+		</div>
+	</div>
+
+	<!-- <div class="tabBox1">
+		<ul class="btnGroup">
+			<li><a href="#box1" class="on">btn1</a></li>
+			<li><a href="#box2">btn2</a></li>
+			<li><a href="#box3">btn3</a></li>
+		</ul>
+		<div class="boxGroup">
+			<div id="box1">box1</div>
+			<div id="box2">box2</div>
+			<div id="box3">box3</div>
+		</div>
+	</div> -->
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
