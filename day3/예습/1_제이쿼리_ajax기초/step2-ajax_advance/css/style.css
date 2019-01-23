@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+
+/* reset */
+* {margin:0; padding:0;}
+ul,ol,li {list-style:none;}
+a {outline:0; text-decoration:none;}
+
+.wrap { width:700px; border:1px solid #111; margin:100px auto; padding:20px; box-sizing:border-box;}
+.wrap img {width:100%;}
+
+.btns { text-align:center;}
+.btns a {display:inline-block; font:bold 20px/1 "arial"; color:#333; border:1px solid #111; padding:5px 3px;}
+.btns a:hover {background:#333; color:#fff;}
