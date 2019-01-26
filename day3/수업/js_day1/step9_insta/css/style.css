@@ -1,0 +1,52 @@
+﻿@charset "utf-8";
+
+/* reset */
+* {margin:0; padding:0;}
+ul,ol,li {list-style:none;}
+a {outline:0; text-decoration:none;}
+
+
+/*풀스크린 배경 및 화면 중앙 텍스트이미지 */
+.bg {position:fixed; width:100%; height:100%; background:url(../img/bg1.jpg) no-repeat center center; background-size:cover;}
+.typo {width:1000px; position:absolute; top:50%; margin-top:-350px; left:50%; margin-left:-500px;}
+
+/*리스트박스*/
+.listBox {width:100%; height:103px; position:fixed; bottom:110px; left:0px; background:rgba(0,0,0,0.7);}
+.list {width:2500px; position:absolute; top:0px; left:-240px; height:100%;}
+.list li {float:left; box-sizing:border-box; width:240px; height:100%;  transition:0.5s; z-index:1; position:relative; opacity:0.3;}
+.list li:hover {transform:scale(1.1); z-index:2; opacity:1;}
+.list>li>a{display:block; width:100%; height:100%; background-size:cover; background-repeat:no-repeat; background-position:center;}
+
+
+
+
+/*레이어팝업*/
+.pop { position:fixed; width:800px; height:450px; top:50%; margin-top:-300px; left:50%; margin-left:-400px; z-index:10; background:rgba(0,0,0, 0.9); box-sizing:border-box; padding:50px; font:bold 20px/1.6 "arial"; color:#bbb; border:1px solid #000; display:none; }
+.con { width:100%; height:100%; background-size:cover; background-position:center;  }
+.con img { width:100%; margin-bottom:20px; border:1px solid #777; box-sizing:border-box;}
+.con h2 { font:bold 16px/1 "arial"; color:#eee; margin-bottom:8px;}
+.con p { font:12px/1.4 "arial"; color:#bbb; }
+.pop .btnClose { position:absolute; top:20px; right:20px; font:bold 12px/1 "arial"; color:#fff; cursor:pointer;}
+.con img.loading { position:absolute; top:50%; left:50%; margin-left:-50px; margin-top:-50px; display:block; width:100px; height:100px; opacity:0.5; border:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
