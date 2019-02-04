@@ -1,0 +1,19 @@
+
+
+* {margin:0; padding:0;}
+ul,ol,li {list-style:none;}
+a,img,input,textarea {outline:0; text-decoration:none; }
+
+#header {border:1px solid yellow; margin:50px;}
+#inputBox {border:1px solid red; margin:50px;}
+#showBox {border:1px solid blue; margin:50px;}
+#showBox>.post {border:1px solid green; margin:20px;}
+
+
+
+
+
+
+
+
+
