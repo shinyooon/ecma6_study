@@ -4,8 +4,8 @@ window.onload = function(){
 
 
 function gen(){
-	//func1().then(func2).then(func3);
-	func3().then(func2).then(func1);
+	func1().then(func2).then(func3);
+	//func3().then(func2).then(func1);
 }
 
 
@@ -24,6 +24,7 @@ function func2(){
 			console.log('second');
 			resolve();
 		},2000);
+		
 	});	
 }
 

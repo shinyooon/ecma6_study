@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+* {margin:0; padding:0}
+
+
+
+h1{
+    margin:100px auto;text-align:center;font-size:100px;font-weight:bold
+}
+
+h1 span{text-shadow:5px 5px 10px rgba(000, 000, 000, 0.3);margin:0 2px;display:inline-block;}
+.str1{color:pink;transform:rotate(-20deg)}
+.str2{color:orange;transform:rotate(-10deg)}
+.str3{color:lightblue;transform:scale(1.2)}
+.str4{color:violet;transform:rotate(10deg)}
+.str5{color:lightgreen;transform:rotate(20deg)}
+
